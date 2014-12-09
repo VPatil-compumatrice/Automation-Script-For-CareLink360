@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <test name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.carelink360Package1.SignUp">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.carelink360Package1.SignUp -->
+      <class name="com.carelink360Package1.AddUser">
+        <methods>
+          <include name="UserTest"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.carelink360Package1.AddUser -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
